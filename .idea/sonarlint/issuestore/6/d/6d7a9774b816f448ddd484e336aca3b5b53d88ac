@@ -1,0 +1,12 @@
+
+h
+java:S1128"LRemove this unused import 'com.example.lesson3.repository.PersonRepository'.(ÏÓò8÷×÷ÿ´/
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Ú™ôÿ´/
+L
+java:S6212""/Declare this local variable with "var" instead.(åŠ–Ş8ã™ôÿ´/
+Q
+java:S6212*"/Declare this local variable with "var" instead.(×€—øÿÿÿÿ8ê™ôÿ´/
+Q
+java:S62121"/Declare this local variable with "var" instead.(ªØê×øÿÿÿÿ8ñ™ôÿ´/
+]	java:S1259"<This block of commented-out lines of code should be removed.(Ë²¼øÿÿÿÿ8™Ì«€µ/

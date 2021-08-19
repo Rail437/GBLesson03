@@ -1,0 +1,44 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lesson3:war exploded">
+    <output-path>$PROJECT_DIR$/target/lesson3-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>lesson3</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lesson3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.6" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf-spring5:3.0.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:3.0.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.attoparser:attoparser:2.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.unbescape:unbescape:1.1.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.webjars:bootstrap:4.6.0-1" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:3.5.1" />
+          <element id="library" level="project" name="Maven: org.webjars:popper.js:1.16.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.14.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.14.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/lesson3-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="lesson3/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,6 @@
+
+TWeb:TableWithoutCaptionCheck " Add a description to this table.(¼ëùÏşÿÿÿÿ8û¶™ÿ´/
+s Web:TableHeaderHasIdOrScopeCheck"";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ÿ÷¸şıÿÿÿÿ8ü¶™ÿ´/
+s Web:TableHeaderHasIdOrScopeCheck#";Add either an 'id' or a 'scope' attribute to this <th> tag.(µ¬ÿûÿÿÿÿ8ü¶™ÿ´/
+s Web:TableHeaderHasIdOrScopeCheck$";Add either an 'id' or a 'scope' attribute to this <th> tag.(¿À¿²şÿÿÿÿ8ı¶™ÿ´/
+n Web:TableHeaderHasIdOrScopeCheck%";Add either an 'id' or a 'scope' attribute to this <th> tag.(¡ÕíÏ8ªàÿ´/
