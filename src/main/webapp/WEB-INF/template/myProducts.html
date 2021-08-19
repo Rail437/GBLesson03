@@ -15,26 +15,28 @@
         <input type="text" class="form-control" id="description" name="description"/>
     </div>
     <div class="mb-3">
-        <label class="form-label">Cost</label>
-        <input type="text" class="form-control" id="cost" name="cost"/>
+        <label class="form-label">Coast</label>
+        <input type="text" class="form-control" id="coast" name="coast"/>
     </div>
     <div class="mb-3">
         <button type="submit" class="btn-primary">Enter</button>
     </div>
 </form>
-
+<a  th:href="@{/cart.html}">
+    <button type="button">My Cart</button>
+</a>
 <div>
     <h1>Available products</h1>
     <table class="table">
         <tr>
             <th>ID</th>
             <th>Description</th>
-            <th>Cost</th>
+            <th>Coast</th>
         </tr>
         <tr th:each="product : ${products}">
             <td th:text="${product.id}">...</td>
             <td th:text="${product.description}">...</td>
-            <td th:text="${product.cost}">...</td>
+            <td th:text="${product.coast}">...</td>
         </tr>
     </table>
 </div>

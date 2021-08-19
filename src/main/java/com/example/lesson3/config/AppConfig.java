@@ -32,7 +32,7 @@ public class AppConfig implements WebMvcConfigurer {
     @Bean
     public ThymeleafViewResolver viewResolver() {
         ThymeleafViewResolver thymeleafViewResolver = new ThymeleafViewResolver();
-        thymeleafViewResolver.setCharacterEncoding("UTF8");
+        thymeleafViewResolver.setCharacterEncoding("UTF-8");
         thymeleafViewResolver.setTemplateEngine(springTemplateEngine());
         return thymeleafViewResolver;
     }

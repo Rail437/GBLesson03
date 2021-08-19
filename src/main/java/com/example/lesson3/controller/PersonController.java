@@ -46,7 +46,7 @@ public class PersonController {
 
     @GetMapping("/{id}")
     public String findById(@PathVariable Long id, Model model) {
-        model.addAttribute("persons", personService.findById(id));
+        model.addAttribute( "persons", personService.findById(id));
         return "person";
     }
 
